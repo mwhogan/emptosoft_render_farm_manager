@@ -1,0 +1,78 @@
+[Settings]
+NumFields=8
+CancelEnabled=1
+CancelShow=1
+BackEnabled=1
+CancelButtonText=Close
+NextButtonText=Next >
+Rect=
+
+[Field 1]
+Type=Icon
+Left=-23
+Right=-1
+Top=0
+Bottom=19
+
+[Field 2]
+Type=Label
+Text=The faster the Monitor checks and re-checks the job list, the more accurate the average timing will be. However, the more the hard drive and CPU are used. You can control how fast the Monitor works by entering a speed percentage below.\r\n\r\nAt what percentage of the full speed do you want the Monitor to work at?
+Left=0
+Right=-30
+Top=0
+Bottom=50
+
+[Field 3]
+Type=Text
+Flags=ONLY_NUMBERS
+MinLen=1
+ValidateText=You have failed to enter a value for the percentage of its full speed that this program should run at. If in doubt, enter 100% so the average rendering time for frames in the current job will be more accurate. Even when running at 100%, this program is limited in such a way that hardly any of your CPU will be used.
+MaxLen=3
+Left=0
+Right=60
+Top=51
+Bottom=64
+
+[Field 4]
+Type=Label
+Text=%
+Left=61
+Right=-1
+Top=53
+Bottom=61
+
+[Field 5]
+Type=Label
+Text=How long do you want the Monitor to rest for once it has checked the entire job list? (Before it checks it again)
+MinLen=1
+Left=0
+Right=-1
+Top=70
+Bottom=86
+
+[Field 6]
+Type=Text
+Flags=ONLY_NUMBERS
+MinLen=1
+ValidateText=You have failed to enter a value for the length of time this program should rest for after checking every frame in the job list, before every frame is checked again. If in doubt, enter 0 to make this program constantly monitor your job list and get a more accurate average rendering time for frames in the current job.
+Left=0
+Right=60
+Top=87
+Bottom=100
+
+[Field 7]
+Type=Label
+Text=seconds
+Left=61
+Right=-1
+Top=89
+Bottom=97
+
+[Field 8]
+Type=Checkbox
+Text=Check for changes before rescanning the job list
+State=1
+Left=0
+Right=-1
+Top=110
+Bottom=118

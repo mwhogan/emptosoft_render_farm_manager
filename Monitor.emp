@@ -1,0 +1,65 @@
+[Settings]
+NumFields=7
+CancelEnabled=1
+CancelShow=1
+BackEnabled=0
+CancelButtonText=Close
+NextButtonText=Next >
+
+[Field 1]
+Type=Icon
+Left=-23
+Right=-1
+Top=0
+Bottom=19
+
+[Field 2]
+Type=Label
+Text=What job would you like to monitor?
+Left=0
+Right=-30
+Top=0
+Bottom=9
+
+[Field 3]
+Type=Droplist
+Flags=Notify
+Left=0
+Right=-30
+Top=10
+Bottom=23
+
+[Field 4]
+Type=Label
+Text=How many times the average rendering time do you want a frame to be allowed to render before it is considered to be failed and another client program is sent back to render it?\r\n(Leave blank to turn off feature)
+Left=0
+Right=-1
+Top=24
+Bottom=58
+
+[Field 5]
+Type=Text
+Flags=ONLY_NUMBERS
+Left=0
+Right=-1
+Top=58
+Bottom=71
+
+[Field 6]
+Type=Checkbox
+State=0
+Text=Verify that all the frames have been rendered when the job is finished
+Flags=DISABLED
+Left=0
+Right=-1
+Top=75
+Bottom=83
+
+[Field 7]
+Type=Text
+State=
+Flags=MULTILINE|NOWORDWRAP|VSCROLL|READONLY
+Left=0
+Right=-1
+Top=90
+Bottom=-1

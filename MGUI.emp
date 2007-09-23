@@ -1,0 +1,134 @@
+[Settings]
+NumFields=15
+CancelEnabled=1
+CancelShow=1
+BackEnabled=0
+BackShow=0
+NextEnabled=0
+NextShow=0
+TimeOut=0
+CancelButtonText=Close
+Title=ERTfTNV Monitor
+
+[Field 1]
+Type=ProgressBar
+Left=0
+Right=-1
+Top=0
+Bottom=10
+ToolTipText=This progress bar shows how much of the current job has been completed.
+ToolTipFlags=Balloon
+ToolTipIcon=Information
+ToolTipTitle=Progress bar
+
+[Field 2]
+Type=Label
+Text=Job name: unknown
+Left=0
+Right=119
+Top=11
+Bottom=19
+
+[Field 3]
+Type=Label
+Text=Job number: unknown
+Left=120
+Right=239
+Top=11
+Bottom=19
+
+[Field 4]
+Type=Label
+Text=Done: unknown (unknown%)
+Left=0
+Right=-1
+Top=20
+Bottom=28
+
+[Field 5]
+Type=Label
+Text=Rendering: unknown (unknown%)
+Left=0
+Right=-1
+Top=29
+Bottom=37
+
+[Field 6]
+Type=Label
+Text=Not started yet: unknown (unknown%)
+Left=0
+Right=-1
+Top=38
+Bottom=46
+
+[Field 7]
+Type=Label
+Text=Average rendering time: Not available
+Left=0
+Right=-1
+Top=47
+Bottom=55
+
+[Field 8]
+Type=Label
+Text=(Based on 0 frame(s))
+Left=0
+Right=-1
+Top=56
+Bottom=64
+
+[Field 9]
+Type=Label
+Text=Rendering from frame unknown to frame unknown.
+Left=0
+Right=-1
+Top=65
+Bottom=73
+
+[Field 10]
+Type=Label
+Text=Sleep time: unknown
+Left=0
+Right=-1
+Top=74
+Bottom=82
+
+[Field 11]
+Type=Label
+Text=Priotiry: unknown
+Left=0
+Right=-1
+Top=83
+Bottom=91
+
+[Field 12]
+Type=Label
+Text=Status: unknown
+Left=0
+Right=-1
+Top=92
+Bottom=100
+
+[Field 13]
+Type=Label
+Text=Please wait: Preparing interface...
+Left=0
+Right=-1
+Top=105
+Bottom=121
+
+[Field 14]
+Type=Label
+Text=Monitor speed: unknown%
+Left=0
+Right=120
+Top=122
+Bottom=130
+
+[Field 15]
+Type=Label
+Text=Rest per loop: unknown s
+Left=121
+Right=240
+Top=122
+Bottom=130
